@@ -1,4 +1,4 @@
-"Ejercicio T1..."
+"Ejercicio T1...GitHub"
 opBasic = function(a,b){
   print("Suma")
   print(a+b)

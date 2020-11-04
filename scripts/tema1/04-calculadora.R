@@ -4,8 +4,10 @@
 
 2/3+5
 
+#%/% cociente entero
 2%/%3+5
 
+#%% resto de divsión entre
 2%%3
 
 2^3*5
@@ -73,7 +75,7 @@ choose(5, 3)
 
 choose(3,5)
 
-log(4^6, 4)
+log(8, 2)
 
 6^log(4,6)
 
@@ -101,6 +103,7 @@ print(sqrt(2),10)
 round(sqrt(2), 3)
 floor(sqrt(2))
 ceiling(sqrt(2))
+#trunc elimina la parte decimal
 trunc(sqrt(2))
 
 sqrt(2)^2-2
@@ -109,7 +112,7 @@ round(sqrt(2), 4)^2
 
 2^50
 print(2^50, 15)
-print(2^50, 2)
+print(2^50, 4)
 print(pi, 22)
 #3.141592653589793115998
 #3.141592653589793238462
@@ -152,7 +155,7 @@ x = x^2
 
 x = sqrt(x)
 
-## FunciÃ³n f(x) = x^3 - (3^x)* sen(x)
+## Función f(x) = x^3 - (3^x)* sen(x)
 f = function(x) {
   x^3 - (3^x) * sin(x)
 }
@@ -188,12 +191,19 @@ suma5 <- function(numero){
 
 suma5(3)
 
+#ls and objects return a vector of character strings giving 
+#the names of the objects in the specified environment. 
+#When invoked with no argument at the top level prompt, 
+#ls shows what data sets and functions a user has defined
+
 ls()
 
-rm(product)
+#remove and rm can be used to remove objects.
+rm(suma5)
 
 ls()
 
+#remueve todo lo que llevamos hasta el momento
 rm(list = ls())
 
 class(3+2i)
@@ -214,14 +224,14 @@ z1
 sqrt(-5)
 sqrt(as.complex(-5))
 
-#La raÃ­z cuadrada devuelve, de las dos soluciones la de
+#La raíz cuadrada devuelve, de las dos soluciones la de
 #Re(z)>0, para obtener la otra,  hay que multiplicar por -1
 sqrt(3+2i) # z^2 = 3+2i
 exp(3+2i)
 sin(3+2i)
 cos(3+2i)
 
-#MÃ³dulo = sqrt(Re(z)^2 + Im(z)^2)
+#Módulo = sqrt(Re(z)^2 + Im(z)^2)
 Mod(z1)
 #Argumento = arctan(Im(z)/Re(z))
 # = arccos(Re(z)/Mod(z))
